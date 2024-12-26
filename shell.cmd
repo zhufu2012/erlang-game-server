@@ -1,0 +1,1 @@
+start ConEmu64.exe /Title "server" /cmd ".\rebar3 shell  --name server@127.0.0.1 --setcookie server & pause"

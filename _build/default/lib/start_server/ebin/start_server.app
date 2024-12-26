@@ -1,0 +1,11 @@
+{application,start_server,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{start_server,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[config,data,gameserver_sup,main,player_connection,
+                        player_manager,start_server,tcp,tcp_ce,time]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
